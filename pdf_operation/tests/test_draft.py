@@ -1,7 +1,9 @@
 import pytest
-from constants import *
-from file_uitls import FolderOperation
-from identify_draft import IdentifyDraft
+
+
+from pdf_operation.constants import *
+from pdf_operation.file_uitls import FolderOperation
+from pdf_operation.identify_draft import IdentifyDraft
 
 fo = FolderOperation(CASES_TRUE_DIR)
 pdf_file_true_list = fo.fetch_specific_files()
