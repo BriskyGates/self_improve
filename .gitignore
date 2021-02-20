@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /pdf_operation/.idea/
+/ssh_operation/config/ssh_config.cfg
