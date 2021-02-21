@@ -1,0 +1,31 @@
+{
+    "BL": [
+        {
+            "page_list": [],
+            "res": {
+                "bill_number": "695 TPE 26716082",
+                "consignee":  "LAM RESEARCH INTERNATIONAL SARL NO. 633, SHANGFENG ROAD, PUDONG NEW DISTRICT,C/O HMG SUPPLY CHAIN (SHANGHAI) CO.SHANGHAI SHANGHAI CN ATTN:CHEN SUMMER USCI91310000733363087X TEL:86-21-20371588",
+                "distinate_port": "SHANGHAI PUDONG INTE",
+                "freight_charges": "PPD",
+                "invoice_no": "803519932,803523605,803523699,803524086",
+                "loading_port": "TAIPEI",
+                "package": "6",
+                "shipper": "LAM RESEARCH (HK) LTD TAIWAN BRANCH 8F-1`2, NO.1, SEC.3, GONGDAO 5 RD., EAST DIST.,HSINCHU TAIWAN ATTN:ELAIN TEL:03-5798666 UNIFORM INVOICE NUMBER 84897212",
+                "total_gw": "270",
+                "voyage": "BR 672/28",
+				"currency": "USD",
+				"HAWB":"TPE004403417",
+				"storge_location":"JAS FORWARDING WORLDWIDE (TAIWAN) LTD.5F, NO. 168, TUN HWA NORTH ROADTAIPEI, 105405, TAIWAN",
+				"carrier":"JAS FORWARDING WORLDWIDE (TAIWAN) LTD.TAIPE",
+				"agent_code":"34-3 0744/0005",
+				"stop_port":"PVG"
+				
+            },
+            "resCode": 1,
+            "resMessage": "No category!",
+            "table_rows": 1,
+            "template_id": ""
+        }
+    ],
+    "image_path_all": ""
+}

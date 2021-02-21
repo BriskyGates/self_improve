@@ -1,0 +1,37 @@
+{
+    "INVOICE": [
+        {
+            "res": {
+                "consignee": "Lam Research International Sarl c/o Shanghai HMG Supply Chain Co., No.633,Shangfeng Road 201201 PUDONG NEW DISTRICT,SHANGHAI CHINA",
+                "currency": "in.American Dollar",
+                "date": "11/25/2020",
+                "goods_description": ["RFRB,GEN,APEX, 1.5KW, 13.56MHZ,-2KHZ OFFSE","RFRB,ASSY,T-MATCH,XTND RNG W/OPROBE"],
+                "incoterms": "CIF",
+                "invoice_no": "803519932",
+                "origin": ["CN","US"],
+                "quantity": ["1.000EA","1.000EA"],
+                "shipper": "Lam Eesearch{H.IE.)Ltd.TW Branch 8F-1 2,No.1,Sec.3,Gongdao 5 Rd.East Dist.Hsinchu City 30069 Taiwan R.O.C.",
+                "total_value": "11649.33",
+                "unit_price": ["7030.10","4619.23"],
+				"sales_order_no":"",
+				"material":["660-032596R513","853-032294R003"],
+				"HS":["8486200000","8486200000"],
+				"extended_price":["7030.10","4619.23"],
+				"eccn":["3B991","3B991"],
+				"license":["NLR","NLR"],
+				"validity":["31/12/2025","31/12/2025"],
+				"total_quantity":"2"
+				
+				
+				
+            },
+            "resCode": 4,
+            "resMessage": "Can not find image template!",
+            "table_rows": 1,
+            "template_id": ""
+        }
+    ],
+    "image_path_all": {
+        "1": "/home/ubuntu/data/pdf_extract_image/damu/joyce.ji2021-01-25T183654大木出口报关-测试667/银峰2413发票/银峰2413发票_1.png"
+    }
+}

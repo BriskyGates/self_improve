@@ -1,0 +1,22 @@
+{
+    "PACKING MATERIAL": [
+        {
+            "page_list": [],
+            "res": {
+                "delivery_number": "803075085",
+                "paper_carton": "1",
+                "plastic_pallet": "",
+                "plywood_pallet": "",
+                "wooden_pallet": "",
+                "wooden_crate": "",
+				"plywood_crate": ""
+				
+            },
+            "resCode": 1,
+            "resMessage": "No category!",
+            "table_rows": 1,
+            "template_id": ""
+        }
+    ],
+    "image_path_all": ""
+}
