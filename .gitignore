@@ -131,3 +131,6 @@ dmypy.json
 /ssh_operation/config/ssh_config.cfg
 .json
 /split_pdf_by_config/finished/
+*.pdf
+*.xlsx
+*xls
