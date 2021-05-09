@@ -2,6 +2,7 @@ from loguru import logger
 from collections import defaultdict
 import pandas as pd
 
+
 class MultiContainer:
     def __init__(self, data: list):
         self.data = data
@@ -16,15 +17,15 @@ class MultiContainer:
             container_no = each_row[1]
             self.temp_data[container_no].append(each_row)
 
-
     def digest_each_row(self):
         for each_row in self.temp_data.values():
             self.final_data.append(each_row)
+
     def analyze_data_by_pandas(self):
-        data_df=pd.DataFrame(self.data)
-        after_data_df=data_df.groupby(1)
-        for each_group,index in after_data_df.indices.items():
-            print(data_df.loc[index])# .to_csv(f'{each_group}.csv')
+        data_df = pd.DataFrame(self.data)
+        after_data_df = data_df.groupby(1)
+        for each_group, index in after_data_df.indices.items():
+            print(data_df.loc[index])  # .to_csv(f'{each_group}.csv')
             # data_df.loc[index].to_csv(f'{each_group}.csv')
             data_df.loc[index].to_excel(f'{each_group}.xlsx')
             # print(each_group)

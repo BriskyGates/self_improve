@@ -1,0 +1,7 @@
+{
+  "error_code": "1",
+  "error_message": "Traceback (most recent call last):\n  File \"/home/ubuntu/special/multi_special_main/special_pic.py\", line 42, in identify\n    final_result = special_hd_json(pdf_result, self.company, pic_document_type, self.file_path)\n  File \"/home/ubuntu/special/pdfdrowecho/special_hd_0215.py\", line 1289, in special_hd_json\n    raise RuntimeError('%s \u8fd9\u4e2a\u516c\u53f8\u7684 %s \u6587\u6863\u627e\u4e0d\u5230scheme' % (company, document_type))\nRuntimeError: invista \u8fd9\u4e2a\u516c\u53f8\u7684 INVISTA_COO_IMPORT \u6587\u6863\u627e\u4e0d\u5230scheme\n",
+  "item": {},
+  "title": {},
+  "type": "not identified"
+}

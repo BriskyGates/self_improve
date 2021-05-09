@@ -1,0 +1,70 @@
+{
+  "error_message": "0",
+  "item": {
+    "amount": [
+      "68460.00"
+    ],
+    "currency": [
+      "\u7f8e\u5143"
+    ],
+    "d_country": [
+      "\u4e2d\u56fd"
+    ],
+    "declPrice": [
+      "3.2600"
+    ],
+    "num": [
+      ""
+    ],
+    "product_code": [
+      "3908101101"
+    ],
+    "product_name": [
+      "\u805a\u9170\u80fa\u5207"
+    ],
+    "product_unit": [
+      "\u4e2a"
+    ],
+    "qty1json": [
+      "21000.0000"
+    ],
+    "qty2json": [
+      ""
+    ],
+    "s_country": [
+      "\u52a0\u62ff\u5927"
+    ],
+    "source_city": [
+      "\uff0831199\uff0f310116\uff09\u91d1\u5c71\uff0f\u4e0a\u6d77\u5e02"
+    ],
+    "source_city_code": [
+      ""
+    ],
+    "tax_collect": [
+      "\u7167\u7ae0\u5f81\u7a0e"
+    ],
+    "unit1Namejson": [
+      "\u5343\u514b"
+    ],
+    "unit2Namejson": [
+      ""
+    ]
+  },
+  "title": {
+    "contact_no": "5501331431",
+    "following_document": "",
+    "freight_money": "USD/7800/3",
+    "markNo": "\u5907\u6ce8\uff1a\uff1c\u603b\u62c5\u4fdd 220020AHSBC000000004\uff1e\u65e0\u7eb8\u5316\uff0c\u5316\u5de5\u533a\uff0c\u9644\u539f\u4ea7\u5730\u8bc1\uff0c\u539f\u4ea7\u5730\u8bc1\u4e66\u53f7\uff1aCC-21-107491\uff0cCPT\uff1aUSD 68460\uff1bN\uff0fM",
+    "product_company": " \u82f1\u5a01\u8fbe\u5c3c\u9f99\u5316\u5de5\uff08\u4e2d\u56fd\uff09\u6709\u9650\u516c\u53f8",
+    "promise1Name": "\u662f",
+    "promise2Name": "\u5426",
+    "promise3Name": "\u5426",
+    "receive_person": " NO INVIST\u0391 (CANADA)COMPANY",
+    "send_person": " \u82f1\u5a01\u8fbe\u5c3c\u9f99\u5316\u5de5\uff08\u4e2d\u56fd\uff09\u6709\u9650\u516c\u53f8",
+    "total_gw": "22093.7",
+    "total_num": "28",
+    "total_nw": "21000",
+    "trans_method": "C&F"
+  },
+  "type": "\u8fdb\u53e3\u8d27\u7269\u62a5\u5173\u5355"
+}
