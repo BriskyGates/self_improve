@@ -23,17 +23,11 @@ class MultiContainer:
 
     def analyze_data_by_pandas(self):
         data_df = pd.DataFrame(self.data)
-        after_data_df = data_df.groupby(1)  # 1 stands for column name
+        after_data_df = data_df.groupby(1)
         for each_group, index in after_data_df.indices.items():
             print(data_df.loc[index])  # .to_csv(f'{each_group}.csv')
-            # print(data_df.loc[[6,8]])  # .to_csv(f'{each_group}.csv')
             # data_df.loc[index].to_csv(f'{each_group}.csv')
-            data_df.loc[index].to_excel(f'{each_group}.xlsx', header=False,
-                                        index=False, )
-            # data_df.loc[[6, 8]].values.tolist()
-            """
-            [['CNCC274831P6', 'CMAU4432326', None, 'P9336879', '1X40HQ', '8202100000', 'TOOLS(MiNi Hand Frame)', 1946, 'CARTON', 23300.0, 68.533, 'INGCO', None, None], ['CNCC274831P8', 'CMAU4432326', None, None, '1X40HQ', '8205200000', 'TOOLS(Machinist hammer)', '1079', 'CARTON', 25077.5, 68.542, 'INGCO', None, None]]
-            """
+            data_df.loc[index].to_excel(f'{each_group}.xlsx')
             # print(each_group)
             # each_group.to_csv()
 

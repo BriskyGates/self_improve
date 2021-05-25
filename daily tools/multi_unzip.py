@@ -30,11 +30,9 @@ if __name__ == '__main__':
     # riyou_path = "C:/Users/Epiphony/Desktop/Curiosity/Curiosity - 副本.rar1"
 
     from unrar import rarfile
-
-    f = rarfile.RarFile(riyou_path)  # 传入rar文件路径
-    f.extractall(".")  # 传入存放解压rar文件的路径
-
-    # pass
+    rar=rarfile.RarFile(riyou_path)
+    temp=rar.namelist()
+    pass
     # hp = HandlePacking(riyou_path)
     # hp.handle_pack_main()
     # pass
