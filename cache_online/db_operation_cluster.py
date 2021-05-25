@@ -9,7 +9,7 @@ from loguru import logger
 
 # 数据库相关配置
 # from universal_constant import *
-from utils.routine.loguru_utils import LoguruUtil
+from utils.routine.multi_loguru import MultiLoguru
 from utils.routine.wrapper_utils import check_empty
 
 DB_CONFIG = {
@@ -21,8 +21,8 @@ DB_CONFIG = {
     'charset': 'utf8',
 
 }
-
-LoguruUtil(LOG_DIR, 'db_operation_cluster.log').loguru_main()
+LOG_DIR="./log"  # 暂时放在本目录
+MultiLoguru(LOG_DIR, 'db_operation.log').main()
 
 
 class DBOperationBase():
